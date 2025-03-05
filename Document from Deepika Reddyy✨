@@ -1,11 +1,1 @@
-{
-  "dependencies": {
-    "bcryptjs": "^3.0.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongodb": "^6.13.1",
-    "mongoose": "^8.10.1"
-  }
-}
+MONGO_URI=mongodb+srv://Gowtham2005:Gowtham%40123@cluster0.jl5kc.mongodb.net/users?retryWrites=true&w=majority&tls=true
