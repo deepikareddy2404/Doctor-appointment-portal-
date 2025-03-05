@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doctor Appointment Portal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Doctor Appointment Booking</h1>
+    <form id="appointment-form">
+      <input type="text" id="doctor" placeholder="Doctor's Name" required>
+      <input type="text" id="patient" placeholder="Your Name" required>
+      <input type="date" id="date" required>
+      <input type="time" id="time" required>
+      <!-- Optional: Appointment category -->
+      <select id="category">
+        <option value="General Checkup">General Checkup</option>
+        <option value="Specialist Consultation">Specialist Consultation</option>
+        <option value="Follow-up">Follow-up</option>
+      </select>
+      <button type="submit">Book Appointment</button>
+    </form>
+    <h2>Appointments</h2>
+    <ul id="appointment-list"></ul>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
